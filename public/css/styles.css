@@ -32,3 +32,28 @@
 .card .card-reveal p {
   color: black;
 }
+.dropdown1 {
+  color: black;
+}
+.brand-logo img {
+  max-height: 100%;
+  width: auto;
+}
+.main-body {
+  margin: 10px;
+}
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.custom-hover:hover {
+  background-color: gold;
+}
+.modal-custom {
+  background-color: #808287;
+  color: gold;
+  font-size: 18px;
+  border-radius: 10px;
+}
