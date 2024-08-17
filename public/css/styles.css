@@ -1,0 +1,78 @@
+.navbar-size {
+  width: 95%;
+  margin: 0 auto;
+}
+.navbar{
+    background-color: grey lighten-1;
+}
+.user-image-size {
+  height: 56px;
+  margin: 4px 0;
+}
+.main-body {
+  background-color: #f9e7e7; 
+  color: #4a0e0e; 
+  height: calc(100vh - 64px);
+}
+.materialboxed-image {
+  margin: 0 auto;
+  height: 400px;
+}
+.modalButton {
+  background-color: #e57373; 
+  margin-top: 50px;
+}
+.back-text {
+  color: #4a0e0e; 
+}
+.card .card-reveal p {
+  color: #4a0e0e; /
+}
+.dropdown1 {
+  color: #4a0e0e; 
+}
+.brand-logo img {
+  max-height: 100%;
+  width: auto;
+}
+.main-body {
+  margin: 10px;
+}
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.custom-hover:hover {
+  background-color: #ffcccb; 
+}
+
+body {
+  background-color: #fff5ee; 
+}
+.btn,
+.btn-large {
+  background-color: #d4a59a; 
+}
+.btn:hover,
+.btn-large:hover {
+  background-color: #c68b80; 
+}
+.card {
+  background-color: #fff5ee; 
+  border: 2px solid #e57373;
+}
+.card .card-title {
+  color: #4a0e0e; 
+}
+footer {
+  background-color: #e57373;
+  color: #fff5ee;
+}
+footer a {
+  color: #fff5ee;
+}
+.dropdown-content li > a, .dropdown-content li > span {
+            color: black !important;
+        }

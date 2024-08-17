@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pigs Pigs Pigs SIT725 Prac 3</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav class="deep-purple accent-1">
+
+      <nav class="black">
+        <div style="padding: bottom 20px;" class="nav-wrapper deep-purple accent-4">
+          <a href="#!" class="brand-logo"
+            ><img
+              class="user-image-size"
+              src="images/IMG_0144-CB.png"
+              alt="Logo"
+          /></a>
+
+        </div>
+      </nav>
+
+    <div class="row">
+      <div class="col s12 m4 l3">
+        <main class="main-body">
+          <div class="container ">
+            <div class="row">
+              <div class="col s12 center-align">
+                <h1 id="heading">Welcome to SIT725 PIGS GALORE</h1>
+                <p class="flow-text">
+                  Here you will find information on our fav pigs
+                </p>
+              </div>
+              <div class="col s12 center-align">
+                <img
+                  class="materialboxed materialboxed-image responsive-img"
+                  src="images/IMG_0144-CB.png"
+                />
+              </div>
+              <div class="col s12 center-align">
+                <a
+                  class="btn-floating btn-large pulse modal-trigger custom-hover"
+                  id="registerButton"
+                  data-target="modal1"
+                  ><i class="material-icons">person_add</i></a
+                >
+              </div>
+            </div>
+          </div>
+        
+      </div>
+      <div class="col s12 m8 l9">
+        <div class="row" id="card-section">
+          
+        </div>
+      </div>
+    
+</div>
+</main>
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Register</h4>
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6 ">
+                <input id="first_name" type="text" class="validate pink-text">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Last Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="password" type="password" class="validate">
+                <label for="password">Password</label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancel</a>
+        <a href="#!" id="formSubmit" class="waves-effect waves-green btn">Register</a>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <footer class="page-footer deep-purple accent-2">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">PIGS R US</h5>
+            <p class="grey-text text-lighten-4">
+              THIS IS ALL ABOUT PIGS 
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">LinkedIn</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">The Website Formly known As Twitter (X)</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright deep-purple accent-1">
+        <div class="container">
+          © BaconChat 2024
+          <a class="grey-text text-lighten-4 right" href="#!">Pig Links</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
